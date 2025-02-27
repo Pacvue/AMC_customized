@@ -1,0 +1,417 @@
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.2:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.2:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.2:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.3:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.3:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.3:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.3:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.4:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.5:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ __main__ :: INFO     :: Loading purchase history from: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Purchase history loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.6:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.7:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.8:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:18:47] "GET /ping HTTP/1.1" 200 -
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:19:17] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: ERROR    :: Error during inference: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 356, in transform
+    X = X[self.features_in]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['high_potential'] not in index"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/infer.py", line 76, in invocations
+    predictions = model.predict_proba(input_data)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/predictor/predictor.py", line 2416, in predict_proba
+    return self._learner.predict_proba(X=data, model=model, as_pandas=as_pandas, as_multiclass=as_multiclass, transform_features=transform_features)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 188, in predict_proba
+    X = self.transform_features(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 485, in transform_features
+    X = feature_generator.transform(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 362, in transform
+    raise KeyError(
+KeyError: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:19:17] "[35m[1mPOST /invocations HTTP/1.1[0m" 500 -
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:20:58] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: ERROR    :: Error during inference: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 356, in transform
+    X = X[self.features_in]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['high_potential'] not in index"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/infer.py", line 76, in invocations
+    predictions = model.predict_proba(input_data)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/predictor/predictor.py", line 2416, in predict_proba
+    return self._learner.predict_proba(X=data, model=model, as_pandas=as_pandas, as_multiclass=as_multiclass, transform_features=transform_features)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 188, in predict_proba
+    X = self.transform_features(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 485, in transform_features
+    X = feature_generator.transform(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 362, in transform
+    raise KeyError(
+KeyError: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:20:58] "[35m[1mPOST /invocations HTTP/1.1[0m" 500 -
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.8:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:31:27] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: ERROR    :: Error during inference: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 356, in transform
+    X = X[self.features_in]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['high_potential'] not in index"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/infer.py", line 76, in invocations
+    predictions = model.predict_proba(input_data)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/predictor/predictor.py", line 2416, in predict_proba
+    return self._learner.predict_proba(X=data, model=model, as_pandas=as_pandas, as_multiclass=as_multiclass, transform_features=transform_features)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 188, in predict_proba
+    X = self.transform_features(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 485, in transform_features
+    X = feature_generator.transform(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 362, in transform
+    raise KeyError(
+KeyError: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:31:27] "[35m[1mPOST /invocations HTTP/1.1[0m" 500 -
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.8:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:53:33] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: ERROR    :: Error during inference: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 356, in transform
+    X = X[self.features_in]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['high_potential'] not in index"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/infer.py", line 76, in invocations
+    predictions = model.predict_proba(input_data)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/predictor/predictor.py", line 2416, in predict_proba
+    return self._learner.predict_proba(X=data, model=model, as_pandas=as_pandas, as_multiclass=as_multiclass, transform_features=transform_features)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 188, in predict_proba
+    X = self.transform_features(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 485, in transform_features
+    X = feature_generator.transform(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 362, in transform
+    raise KeyError(
+KeyError: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:53:33] "[35m[1mPOST /invocations HTTP/1.1[0m" 500 -
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:53:52] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: ERROR    :: Error during inference: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 356, in transform
+    X = X[self.features_in]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['high_potential'] not in index"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/infer.py", line 76, in invocations
+    predictions = model.predict_proba(input_data)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/predictor/predictor.py", line 2416, in predict_proba
+    return self._learner.predict_proba(X=data, model=model, as_pandas=as_pandas, as_multiclass=as_multiclass, transform_features=transform_features)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 188, in predict_proba
+    X = self.transform_features(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/tabular/learner/abstract_learner.py", line 485, in transform_features
+    X = feature_generator.transform(X)
+  File "/usr/local/lib/python3.10/site-packages/autogluon/features/generators/abstract.py", line 362, in transform
+    raise KeyError(
+KeyError: "1 required columns are missing from the provided dataset to transform using AutoMLPipelineFeatureGenerator. 1 missing columns: ['high_potential'] | 26 available columns: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']"
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 21:53:52] "[35m[1mPOST /invocations HTTP/1.1[0m" 500 -
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.8:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 22:00:52] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: INFO     :: Predictions generated successfully and top 10% is exported.
+ __main__ :: INFO     :: Returning predictions as CSV file.
+ werkzeug :: INFO     :: 172.17.0.1 - - [07/Feb/2025 22:00:53] "POST /invocations HTTP/1.1" 200 -
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.8:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ werkzeug :: INFO     :: 172.17.0.1 - - [11/Feb/2025 03:27:49] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: INFO     :: Predictions generated successfully and top 10% is exported.
+ __main__ :: INFO     :: Returning predictions as CSV file.
+ werkzeug :: INFO     :: 172.17.0.1 - - [11/Feb/2025 03:27:49] "POST /invocations HTTP/1.1" 200 -
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.9:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ werkzeug :: INFO     :: 172.17.0.1 - - [12/Feb/2025 07:45:46] "GET /ping HTTP/1.1" 200 -
+ werkzeug :: INFO     :: 172.17.0.1 - - [12/Feb/2025 07:46:33] "GET /ping HTTP/1.1" 200 -
+ werkzeug :: INFO     :: 172.17.0.1 - - [12/Feb/2025 07:46:38] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: INFO     :: Predictions generated successfully and top 10% is exported.
+ __main__ :: INFO     :: Returning predictions as CSV file.
+ werkzeug :: INFO     :: 172.17.0.1 - - [12/Feb/2025 07:46:38] "POST /invocations HTTP/1.1" 200 -
+ werkzeug :: INFO     :: 172.17.0.1 - - [12/Feb/2025 07:46:44] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: INFO     :: Predictions generated successfully and top 10% is exported.
+ __main__ :: INFO     :: Returning predictions as CSV file.
+ werkzeug :: INFO     :: 172.17.0.1 - - [12/Feb/2025 07:46:44] "POST /invocations HTTP/1.1" 200 -
+ __main__ :: INFO     :: Loading model from: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: LightGBM model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.10:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ werkzeug :: INFO     :: 172.17.0.1 - - [18/Feb/2025 03:02:21] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: INFO     :: Predictions generated successfully and top 10% is exported.
+ __main__ :: INFO     :: Returning predictions as CSV file.
+ werkzeug :: INFO     :: 172.17.0.1 - - [18/Feb/2025 03:02:21] "POST /invocations HTTP/1.1" 200 -
+ werkzeug :: INFO     :: 172.17.0.1 - - [18/Feb/2025 03:03:09] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: INFO     :: Predictions generated successfully and top 10% is exported.
+ __main__ :: INFO     :: Returning predictions as CSV file.
+ werkzeug :: INFO     :: 172.17.0.1 - - [18/Feb/2025 03:03:10] "POST /invocations HTTP/1.1" 200 -
+ werkzeug :: INFO     :: 172.17.0.1 - - [18/Feb/2025 08:40:16] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: INFO     :: Predictions generated successfully and top 10% is exported.
+ __main__ :: INFO     :: Returning predictions as CSV file.
+ werkzeug :: INFO     :: 172.17.0.1 - - [18/Feb/2025 08:40:16] "POST /invocations HTTP/1.1" 200 -
+ werkzeug :: INFO     :: 172.17.0.1 - - [18/Feb/2025 09:01:29] "GET /ping HTTP/1.1" 200 -
+ __main__ :: INFO     :: Received an inference request.
+ __main__ :: INFO     :: Loading the input data.
+ __main__ :: INFO     :: Parsed input data shape: (21340, 26)
+ __main__ :: INFO     :: Predictions generated successfully and top 10% is exported.
+ __main__ :: INFO     :: Returning predictions as CSV file.
+ werkzeug :: INFO     :: 172.17.0.1 - - [18/Feb/2025 09:01:29] "POST /invocations HTTP/1.1" 200 -
+ __main__ :: INFO     :: Loading model from: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: LightGBM model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.10:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: LightGBM model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.11:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: LightGBM model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.10:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: LightGBM model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.12:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: LightGBM model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.12:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: LightGBM model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.13:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from: /opt/ml/model/
+ __main__ :: INFO     :: LightGBM model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.14:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Debug: Loading model from directory: /opt/ml/model/
+ __main__ :: INFO     :: Debug: Successfully loaded pickle model from /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Debug: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.17.0.14:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m

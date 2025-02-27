@@ -1,0 +1,642 @@
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: []
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: ERROR    :: An error occurred: No objects to concatenate
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 153, in main
+    df = load_data(dataset_path)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 43, in load_data
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: ERROR    :: An error occurred: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 157, in main
+    X_train, X_test, y_train, y_test = train_test_data_split(df)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 82, in train_test_data_split
+    X_train, X_test, y_train, y_test = train_test_split(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/sklearn/model_selection/_split.py", line 2851, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/sklearn/model_selection/_split.py", line 2481, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: ERROR    :: An error occurred: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 158, in main
+    X_train, X_test, y_train, y_test = train_test_data_split(df)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 82, in train_test_data_split
+    X_train, X_test, y_train, y_test = train_test_split(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/sklearn/model_selection/_split.py", line 2851, in train_test_split
+    n_train, n_test = _validate_shuffle_split(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/sklearn/model_selection/_split.py", line 2481, in _validate_shuffle_split
+    raise ValueError(
+ValueError: With n_samples=0, test_size=0.2 and train_size=None, the resulting train set will be empty. Adjust any of the aforementioned parameters.
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: ERROR    :: An error occurred: DataFrame.dropna() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 158, in main
+    X_train, X_test, y_train, y_test = train_test_data_split(df)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 78, in train_test_data_split
+    df = df.dropna(["total_impressions_30d","total_clicks_30d"])
+TypeError: DataFrame.dropna() takes 1 positional argument but 2 were given
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: ERROR    :: An error occurred: DataFrame.dropna() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 158, in main
+    X_train, X_test, y_train, y_test = train_test_data_split(df)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 78, in train_test_data_split
+    df = df.dropna(["total_impressions_30d","total_clicks_30d"], axis = 0)
+TypeError: DataFrame.dropna() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: ERROR    :: An error occurred: 'DataFrame' object has no attribute 'astypes'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 159, in main
+    train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 101, in train_lightgbm_model
+    X_train = X_train.astypes(float)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'astypes'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 0.4817
+  Precision: 0.1311
+  Recall: 0.5304
+  F1 Score: 0.2102
+  ROC AUC: 0.5024
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.16 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: []
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: ERROR    :: An error occurred: No objects to concatenate
+Traceback (most recent call last):
+  File "/opt/ml/code/train/train.py", line 153, in main
+    df = load_data(dataset_path)
+  File "/opt/ml/code/train/train.py", line 43, in load_data
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: []
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: ERROR    :: An error occurred: No objects to concatenate
+Traceback (most recent call last):
+  File "/opt/ml/code/train/train.py", line 153, in main
+    df = load_data(dataset_path)
+  File "/opt/ml/code/train/train.py", line 43, in load_data
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: []
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: ERROR    :: An error occurred: No objects to concatenate
+Traceback (most recent call last):
+  File "/opt/ml/code/train/train.py", line 153, in main
+    df = load_data(dataset_path)
+  File "/opt/ml/code/train/train.py", line 43, in load_data
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 0.4817
+  Precision: 0.1311
+  Recall: 0.5304
+  F1 Score: 0.2102
+  ROC AUC: 0.5024
+ __main__ :: INFO     :: Model saved at: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.21 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: []
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: ERROR    :: An error occurred: No objects to concatenate
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 156, in main
+    df = load_data(dataset_path)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 44, in load_data
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: []
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: ERROR    :: An error occurred: No objects to concatenate
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 156, in main
+    df = load_data(dataset_path)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 44, in load_data
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: []
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: ERROR    :: An error occurred: No objects to concatenate
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 156, in main
+    df = load_data(dataset_path)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 44, in load_data
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 0.4817
+  Precision: 0.1311
+  Recall: 0.5304
+  F1 Score: 0.2102
+  ROC AUC: 0.5024
+ __main__ :: ERROR    :: An error occurred: [Errno 13] Permission denied: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 162, in main
+    train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 128, in train_lightgbm_model
+    with open(model_path, 'wb') as f:
+PermissionError: [Errno 13] Permission denied: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 0.4817
+  Precision: 0.1311
+  Recall: 0.5304
+  F1 Score: 0.2102
+  ROC AUC: 0.5024
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.17 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: []
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: ERROR    :: An error occurred: No objects to concatenate
+Traceback (most recent call last):
+  File "/opt/ml/code/train/train.py", line 156, in main
+    df = load_data(dataset_path)
+  File "/opt/ml/code/train/train.py", line 44, in load_data
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 0.5310
+  Precision: 0.5312
+  Recall: 0.6028
+  F1 Score: 0.5647
+  ROC AUC: 0.5303
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.11 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: ERROR    :: An error occurred: [Errno 2] No such file or directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/'
+Traceback (most recent call last):
+  File "/opt/ml/code/train/train.py", line 180, in main
+    df = load_data(dataset_path)
+  File "/opt/ml/code/train/train.py", line 41, in load_data
+    log_directory_info(file_path)
+  File "/opt/ml/code/train/train.py", line 37, in log_directory_info
+    directory_contents = os.listdir(current_directory)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: ERROR    :: An error occurred: [Errno 13] Permission denied: '/opt/ml/model/'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train_2.py", line 186, in main
+    os.makedirs(model_dir, exist_ok=True)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/opt/ml/model/'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: ERROR    :: An error occurred: Logger.info() missing 1 required positional argument: 'msg'
+Traceback (most recent call last):
+  File "/opt/ml/code/train/train.py", line 192, in main
+    train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir)
+  File "/opt/ml/code/train/train.py", line 155, in train_lightgbm_model
+    logger.info()
+TypeError: Logger.info() missing 1 required positional argument: 'msg'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_12.01-02.01.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.6680
+ __main__ :: INFO     :: Precision: 0.6525
+ __main__ :: INFO     :: Recall: 0.7320
+ __main__ :: INFO     :: F1 Score: 0.6900
+ __main__ :: INFO     :: ROC AUC: 0.7241
+ __main__ :: INFO     :: Model saved at: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.14 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 24650 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: user_id                             0
+user_id_type                        0
+customer_search_term                0
+dma_code                        24650
+postal_code                     24650
+device_type                     24650
+browser_family                  24650
+operating_system                24650
+search_campaign_cnt                 0
+total_impressions_30d               0
+total_clicks_30d                    0
+total_impressions_15d               0
+total_clicks_15d                    0
+total_impressions_5d                0
+total_clicks_5d                     0
+total_conversions_after_30d       627
+total_revenue_after_30d           627
+total_quantity_after_30d          627
+total_conversions_before_30d      627
+total_revenue_before_30d          627
+total_quantity_before_30d         627
+total_conversions_before_15d      627
+total_revenue_before_15d          627
+total_quantity_before_15d         627
+total_conversions_before_5d       627
+total_revenue_before_5d           627
+total_quantity_before_5d          627
+last_event_dt_before            19503
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: ERROR    :: An error occurred: 'total_conversions_30d'
+Traceback (most recent call last):
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'total_conversions_30d'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train3.py", line 319, in main
+    df = calculate_high_potential_flag(prepared_df)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train3.py", line 125, in calculate_high_potential_flag
+    df['high_potential'] = ((df['total_conversions_30d'] > 0) | (df['total_revenue_30d'] > 0)).astype(int)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'total_conversions_30d'
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 24650 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: user_id                             0
+user_id_type                        0
+customer_search_term                0
+dma_code                        24650
+postal_code                     24650
+device_type                     24650
+browser_family                  24650
+operating_system                24650
+search_campaign_cnt                 0
+total_impressions_30d               0
+total_clicks_30d                    0
+total_impressions_15d               0
+total_clicks_15d                    0
+total_impressions_5d                0
+total_clicks_5d                     0
+total_conversions_after_30d       627
+total_revenue_after_30d           627
+total_quantity_after_30d          627
+total_conversions_before_30d      627
+total_revenue_before_30d          627
+total_quantity_before_30d         627
+total_conversions_before_15d      627
+total_revenue_before_15d          627
+total_quantity_before_15d         627
+total_conversions_before_5d       627
+total_revenue_before_5d           627
+total_quantity_before_5d          627
+last_event_dt_before            19503
+dtype: int64
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (19720, 21), Test shape: (4930, 21)
+ __main__ :: INFO     :: Performing random oversampling on the training set to handle imbalance...
+ __main__ :: INFO     :: Before oversampling: Positive=2500, Negative=17220
+ __main__ :: INFO     :: After oversampling:  Positive=17220, Negative=17220
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: ERROR    :: An error occurred: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: last_event_dt_before: object
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train3.py", line 336, in main
+    model = train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train3.py", line 264, in train_lightgbm_model
+    model.fit(X_train, y_train)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/lightgbm/sklearn.py", line 1284, in fit
+    super().fit(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/lightgbm/sklearn.py", line 955, in fit
+    self._Booster = train(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/lightgbm/engine.py", line 282, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/lightgbm/basic.py", line 3637, in __init__
+    train_set.construct()
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/lightgbm/basic.py", line 2576, in construct
+    self._lazy_init(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/lightgbm/basic.py", line 2106, in _lazy_init
+    data, feature_name, categorical_feature, self.pandas_categorical = _data_from_pandas(
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/lightgbm/basic.py", line 848, in _data_from_pandas
+    _pandas_to_numpy(data, target_dtype=target_dtype),
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/lightgbm/basic.py", line 794, in _pandas_to_numpy
+    _check_for_bad_pandas_dtypes(data.dtypes)
+  File "/home/ec2-user/miniconda3/envs/amc/lib/python3.10/site-packages/lightgbm/basic.py", line 784, in _check_for_bad_pandas_dtypes
+    raise ValueError(
+ValueError: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: last_event_dt_before: object
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 24650 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (19720, 20), Test shape: (4930, 20)
+ __main__ :: INFO     :: Performing random oversampling on the training set to handle imbalance...
+ __main__ :: INFO     :: Before oversampling: Positive=2500, Negative=17220
+ __main__ :: INFO     :: After oversampling:  Positive=17220, Negative=17220
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 1.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.34 seconds
