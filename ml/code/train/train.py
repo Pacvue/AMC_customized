@@ -1,21 +1,15 @@
-import os
-import sys
-import time
-import glob
-import pickle
-import logging
 import pandas as pd
+import pickle
+import glob
 import numpy as np
-
-from typing import List
-from sklearn.preprocessing import LabelEncoder
+import logging
+import sys
+import os
+import time
 from lightgbm import LGBMClassifier
-from sklearn.model_selection import train_test_split, StratifiedKFold
-from sklearn.metrics import (
-    accuracy_score, precision_score, recall_score,
-    f1_score, roc_auc_score
-)
-from sklearn.utils import resample  # 用于随机过采样
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
+from sklearn.utils import resample  # For random oversampling
 
 # ================= Logging Setup =================
 root_logger = logging.getLogger()
@@ -25,7 +19,7 @@ stdout_handler.setLevel(logging.DEBUG)
 stdout_handler.setFormatter(logFormatter)
 root_logger.addHandler(stdout_handler)
 
-# Set log directory from environment or default
+# log_path = os.environ.get("AMC_AUDIENCES_LOG_DIR", '/opt/ml/output/data/log/')
 log_path = os.environ.get("AMC_AUDIENCES_LOG_DIR", '/home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/log/')
 os.makedirs(log_path, exist_ok=True)
 file_handler = logging.FileHandler(os.path.join(log_path, "logfile.log"))
@@ -36,22 +30,77 @@ root_logger.addHandler(file_handler)
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-# ================== Data Preprocessing Functions ==================
+def log_directory_info(current_directory=os.getcwd()):
+    logger.info(f"Current working directory: {current_directory}")
+    directory_contents = os.listdir(current_directory)
+    logger.info(f"Directory contents: {directory_contents}")
+
+def load_data(file_path):
+    log_directory_info(file_path)
+    all_files = glob.glob(os.path.join(file_path, "*.csv"))
+    logger.info("Reading CSV files...")
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+    return df
+
+def get_columns_to_drop():
+    # 只排除标识符和目标变量相关的列
+    return [
+        "high_potential", "user_id", 
+        "total_conversions_after_30d", "total_revenue_after_30d", "total_quantity_after_30d"
+    ]
+
+def calculate_high_potential_flag(df: pd.DataFrame):
+    """
+    当后30天的转化、收入或销量任一指标大于0时，标记为高潜力客户
+    """
+    df['high_potential'] = np.where(
+        (df['total_conversions_after_30d'] > 0) |
+        (df['total_revenue_after_30d'] > 0) |
+        (df['total_quantity_after_30d'] > 0),
+        1, 0
+    )
+    df['high_potential'] = df['high_potential'].fillna(0).astype(int)
+    return df
+
+def stratified_sampling(df: pd.DataFrame, label_column: str, random_state=42):
+    """
+    采用分层抽样对类别不平衡进行过采样
+    """
+    class_counts = df[label_column].value_counts()
+    majority_count = class_counts.max()
+    sampled_dfs = []
+    for label, count in class_counts.items():
+        class_df = df[df[label_column] == label]
+        if count < majority_count:
+            sampled_df = resample(class_df, replace=True, n_samples=majority_count, random_state=random_state)
+        else:
+            sampled_df = class_df
+        sampled_dfs.append(sampled_df)
+    df_balanced = pd.concat(sampled_dfs)
+    logger.info(f"Class distribution after balancing: {df_balanced[label_column].value_counts().to_dict()}")
+    return df_balanced.reset_index(drop=True)
+
+def train_test_data_split(df: pd.DataFrame, test_size=0.2, random_state=42):
+    """
+    采用分层抽样划分训练集和测试集，仅排除标识符和目标变量相关的列
+    """
+    logger.info(f"Splitting data with test_size={test_size}...")
+    if 'high_potential' not in df.columns:
+        raise ValueError("Column 'high_potential' not found. Please compute it before splitting.")
+    columns_to_drop = get_columns_to_drop()
+    X = df.drop(columns=[col for col in columns_to_drop if col in df.columns])
+    logger.info(f"Using features: {list(X.columns)}")
+    logger.info("Handling missing values...")
+    logger.info(f"Missing counts: {X.isnull().sum().to_dict()}")
+    X = X.fillna(0)
+    y = df['high_potential']
+    logger.info(f"Shape after handling missing values: {X.shape}")
+    return train_test_split(X, y, test_size=test_size, random_state=random_state)
 
 def data_preparation(data) -> pd.DataFrame:
     """
-    数据预处理函数，去掉 Z-Score 过滤，最大程度保留数据。
-    包含：
-      1. 读取CSV（如果传入的是路径）
-      2. 时间列转换与差值计算
-      3. 缺失值填充
-      4. 字符型列的Label Encoding
-      5. 删除无用列
-      6. One-Hot编码
-      7. 过滤不合理行
-      8. 去重
+    数据预处理：读取数据、填充缺失值、去除重复记录（所有特征均为数值型）
     """
-    # ========== 1) 读取数据 ==========
     if isinstance(data, str):
         df = pd.read_csv(data)
     elif isinstance(data, pd.DataFrame):
@@ -59,288 +108,136 @@ def data_preparation(data) -> pd.DataFrame:
     else:
         raise ValueError("Input data must be a file path or a DataFrame")
         
-    logger.info("=== Initial DataFrame Info ===")
-    logger.info(df.info())
-
-    # ========== 2) 时间列转换与差值计算 ==========
-    date_cols = ["last_event_dt_30d", "last_conversion_dt_30d"]
-    for dcol in date_cols:
-        if dcol in df.columns:
-            df[dcol] = pd.to_datetime(df[dcol], errors='coerce')
-    if set(date_cols).issubset(df.columns):
-        df['time_diff_days'] = (df['last_event_dt_30d'] - df['last_conversion_dt_30d']).dt.days
-        df = df.drop(columns=date_cols)
-        
-    logger.info("\n=== Missing Values per Column ===")
-    logger.info(df.isnull().sum())
-
-    # ========== 3) 缺失值填充 ==========
-    numeric_fill = {
-        "total_conversions_30d": 0,
-        "total_revenue_30d": 0
-    }
-    for col_n, fill_val in numeric_fill.items():
-        if col_n in df.columns:
-            df[col_n] = df[col_n].fillna(fill_val)
-    str_fill = ["customer_search_term"]
-    for scol in str_fill:
-        if scol in df.columns:
-            df[scol] = df[scol].fillna("Unknown")
-
-    # ========== 4) Label Encoding ==========
-    if "customer_search_term" in df.columns:
-        df['customer_search_term'] = df['customer_search_term'].astype(str)
-        le = LabelEncoder()
-        df['customer_search_term'] = le.fit_transform(df['customer_search_term'])
-
-    # ========== 5) 删除无用列 ==========
-    cols_to_drop = ["user_id", "user_id_type"]
-    df = df.drop(columns=[col for col in cols_to_drop if col in df.columns], errors='ignore')
-
-    # ========== 6) One-Hot 编码 ==========
-    cat_cols = ["device_type", "browser_family", "operating_system"]
-    valid_cat_cols = [c for c in cat_cols if c in df.columns]
-    if valid_cat_cols:
-        df = pd.get_dummies(df, columns=valid_cat_cols, drop_first=True)
-
-    # ========== 7) 去掉 Z-Score 过滤 (注释掉原逻辑) ==========
-    # numeric_cols = [...]
-    # df = calculate_zscore_and_filter(df, numeric_cols, threshold)
-
-    # ========== 8) 过滤不合理行 ==========
-    if "total_revenue_30d" in df.columns:
-        df = df[df["total_revenue_30d"] >= 0]
-
-    # ========== 9) 去重 ==========
-    if "customer_search_term" in df.columns and "time_diff_days" in df.columns:
-        df = df.drop_duplicates(subset=["customer_search_term", "time_diff_days"])
-
+    logger.info(f"Initial DataFrame shape: {df.shape}")
+    df = df.fillna(0)
+    df = df.drop_duplicates()
+    logger.info(f"DataFrame shape after preparation: {df.shape}")
     return df
 
-def calculate_high_potential_flag(df: pd.DataFrame) -> pd.DataFrame:
+def grid_search_lightgbm(X_train, y_train):
     """
-    若 total_conversions_30d > 0 或 total_revenue_30d > 0，则标记 high_potential=1，否则=0。
+    使用 GridSearchCV 寻找最佳 LightGBM 参数
     """
-    logger.info("Calculating 'high_potential' flag...")
-    df['high_potential'] = ((df['total_conversions_30d'] > 0) | (df['total_revenue_30d'] > 0)).astype(int)
-    return df
-
-def oversample_minority_class(X: pd.DataFrame, y: pd.Series, random_state=42):
-    """
-    对少数类进行随机过采样，使正负样本更加平衡。
-    """
-    logger.info("Performing random oversampling on the training set to handle imbalance...")
-    train_df = X.copy()
-    train_df['label'] = y
-
-    # 统计当前分布
-    pos_count = sum(train_df['label'] == 1)
-    neg_count = sum(train_df['label'] == 0)
-    logger.info(f"Before oversampling: Positive={pos_count}, Negative={neg_count}")
-
-    # 分割多数类和少数类（假设 high_potential=1 为多数类，0 为少数类；若相反可自行调整）
-    majority_class = 1 if pos_count > neg_count else 0
-    minority_class = 0 if majority_class == 1 else 1
-
-    df_majority = train_df[train_df['label'] == majority_class]
-    df_minority = train_df[train_df['label'] == minority_class]
-
-    # 过采样 minority 类到与 majority 类同样数量
-    df_minority_oversampled = resample(
-        df_minority,
-        replace=True,
-        n_samples=len(df_majority),
-        random_state=random_state
-    )
-
-    # 合并回去
-    df_oversampled = pd.concat([df_majority, df_minority_oversampled], axis=0)
-
-    # 查看过采样后分布
-    pos_count_os = sum(df_oversampled['label'] == 1)
-    neg_count_os = sum(df_oversampled['label'] == 0)
-    logger.info(f"After oversampling:  Positive={pos_count_os}, Negative={neg_count_os}")
-
-    # 分离特征和标签
-    y_resampled = df_oversampled['label']
-    X_resampled = df_oversampled.drop(columns=['label'])
-
-    return X_resampled, y_resampled
-
-def train_test_data_split(df: pd.DataFrame, test_size=0.2, random_state=42):
-    """
-    拆分训练集与测试集，并在训练集上进行过采样（随机复制少数类）。
-    """
-    logger.info(f"Splitting data with test_size={test_size}, random_state={random_state}...")
-    if 'high_potential' not in df.columns:
-        raise ValueError("Column 'high_potential' not found. Please compute it before splitting.")
-    
-    # 特征中去掉直接用于生成 high_potential 的列
-    # features_to_drop = ['high_potential', 'total_conversions_30d', 'total_revenue_30d']
-    features_to_drop = ["total_conversions_after_30d", "total_revenue_after_30d","total_quantity_after_30d"]  
-    X = df.drop(columns=[col for col in features_to_drop if col in df.columns], errors='ignore')
-    y = df['high_potential']
-    
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y,
-        test_size=test_size,
-        random_state=random_state,
-        stratify=y  # 尽量保证拆分后分布一致
-    )
-    logger.info(f"Train shape: {X_train.shape}, Test shape: {X_test.shape}")
-
-    # 在训练集上执行随机过采样
-    X_train_os, y_train_os = oversample_minority_class(X_train, y_train, random_state=random_state)
-
-    return X_train_os, X_test, y_train_os, y_test
-
-def cross_validate_lightgbm(X, y, n_splits=5, random_state=42):
-    """
-    使用 K 折交叉验证评估模型性能，并打印各折指标。
-    """
-    logger.info(f"Starting {n_splits}-Fold Cross Validation...")
-    skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state)
-    
-    metrics = {
-        'accuracy': [],
-        'precision': [],
-        'recall': [],
-        'f1': [],
-        'auc': []
+    param_grid = {
+        'n_estimators': [50, 100, 200],
+        'max_depth': [3, 5, 7],
+        'learning_rate': [0.01, 0.1]
     }
-    
-    for fold_idx, (train_idx, val_idx) in enumerate(skf.split(X, y), start=1):
-        X_train_fold, X_val_fold = X.iloc[train_idx], X.iloc[val_idx]
-        y_train_fold, y_val_fold = y.iloc[train_idx], y.iloc[val_idx]
-        
-        # 这里可选择是否对每折做 oversampling。若做，则会在 CV 中也平衡数据
-        # X_train_fold, y_train_fold = oversample_minority_class(X_train_fold, y_train_fold, random_state)
-        
-        model = LGBMClassifier(n_estimators=100, random_state=random_state, class_weight='balanced')
-        model.fit(X_train_fold, y_train_fold)
-        y_pred_fold = model.predict(X_val_fold)
-        
-        acc = accuracy_score(y_val_fold, y_pred_fold)
-        prec = precision_score(y_val_fold, y_pred_fold, zero_division=0)
-        rec = recall_score(y_val_fold, y_pred_fold, zero_division=0)
-        f1 = f1_score(y_val_fold, y_pred_fold, zero_division=0)
-        if len(set(y_val_fold)) > 1:
-            auc = roc_auc_score(y_val_fold, y_pred_fold)
-        else:
-            auc = 0.0
-        
-        metrics['accuracy'].append(acc)
-        metrics['precision'].append(prec)
-        metrics['recall'].append(rec)
-        metrics['f1'].append(f1)
-        metrics['auc'].append(auc)
-        
-        logger.info(
-            f"[Fold {fold_idx}] Accuracy={acc:.4f}, Precision={prec:.4f}, "
-            f"Recall={rec:.4f}, F1={f1:.4f}, AUC={auc:.4f}"
-        )
-    
-    logger.info("=== K-Fold Cross Validation (Average) ===")
-    logger.info(f"Mean Accuracy: {np.mean(metrics['accuracy']):.4f}")
-    logger.info(f"Mean Precision: {np.mean(metrics['precision']):.4f}")
-    logger.info(f"Mean Recall: {np.mean(metrics['recall']):.4f}")
-    logger.info(f"Mean F1 Score: {np.mean(metrics['f1']):.4f}")
-    logger.info(f"Mean ROC AUC: {np.mean(metrics['auc']):.4f}")
+    model = LGBMClassifier(class_weight='balanced', random_state=42)
+    grid_search = GridSearchCV(
+        estimator=model,
+        param_grid=param_grid,
+        cv=5,
+        scoring='f1',
+        n_jobs=-1,
+        verbose=0
+    )
+    grid_search.fit(X_train, y_train)
+    logger.info(f"Best parameters: {grid_search.best_params_}")
+    logger.info(f"Best cross-validation score: {grid_search.best_score_:.4f}")
+    return grid_search.best_estimator_
 
 def train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir):
     """
-    使用 LightGBM 训练并在测试集上评估，最后保存模型。
-    启用 class_weight='balanced' 以减轻数据不平衡。
+    使用最佳参数训练 LightGBM 模型并在测试集上评估
     """
-    logger.info("Training a LightGBM classifier for high potential customers...")
-    model = LGBMClassifier(n_estimators=100, random_state=42, class_weight='balanced')
+    logger.info("Training LightGBM classifier for high potential customers...")
+    y_train = y_train.astype(int)
+    y_test = y_test.astype(int)
+    X_train = X_train.astype(float)
+    X_test = X_test.astype(float)
+    
+    model = LGBMClassifier(n_estimators=10, random_state=42, class_weight='balanced')
     model.fit(X_train, y_train)
+    
+    feature_importance = pd.DataFrame({
+        'feature': X_train.columns,
+        'importance': model.feature_importances_
+    }).sort_values('importance', ascending=False)
+    for _ in range(10):
+        for idx, row in feature_importance.iterrows():
+            logger.info(f"feature_idx: {idx+1}, feature_imp: {row['importance']:.4f}")
     
     logger.info("Evaluating on test data...")
     y_pred = model.predict(X_test)
+    y_pred_proba = model.predict_proba(X_test)[:, 1]
     accuracy = accuracy_score(y_test, y_pred)
     precision = precision_score(y_test, y_pred, zero_division=0)
     recall = recall_score(y_test, y_pred, zero_division=0)
     f1 = f1_score(y_test, y_pred, zero_division=0)
-    if len(set(y_test)) > 1:
-        auc = roc_auc_score(y_test, y_pred)
-    else:
-        auc = 0.0
+    auc = roc_auc_score(y_test, y_pred_proba) if len(set(y_test)) > 1 else 0.0
+    pred_dist = pd.Series(y_pred).value_counts()
+    proba_stats = {
+        'mean': np.mean(y_pred_proba),
+        'std': np.std(y_pred_proba),
+        'min': np.min(y_pred_proba),
+        'max': np.max(y_pred_proba),
+        'median': np.median(y_pred_proba)
+    }
+    for _ in range(10):
+        logger.info(f"accuracy: {accuracy:.4f}, precision: {precision:.4f}, recall: {recall:.4f}, f1_score: {f1:.4f}, auc: {auc:.4f}")
+        logger.info(f"prob_mean: {proba_stats['mean']:.4f}, prob_std: {proba_stats['std']:.4f}, prob_min: {proba_stats['min']:.4f}, prob_max: {proba_stats['max']:.4f}, prob_median: {proba_stats['median']:.4f}")
+        logger.info(f"class_0_count: {int(pred_dist.get(0, 0))}, class_1_count: {int(pred_dist.get(1, 0))}")
     
-    logger.info(
-        f"Performance Metrics (Test Set):\n"
-        f"  Accuracy: {accuracy:.4f}\n"
-        f"  Precision: {precision:.4f}\n"
-        f"  Recall: {recall:.4f}\n"
-        f"  F1 Score: {f1:.4f}\n"
-        f"  ROC AUC: {auc:.4f}"
-    )
-    
-    os.makedirs(model_dir, exist_ok=True)
     model_path = os.path.join(model_dir, "high_potential_model.pkl")
     with open(model_path, 'wb') as f:
         pickle.dump(model, f)
-    
     logger.info(f"Model saved at: {model_path}")
     return model
 
 def measure_execution_time(func):
-    """
-    Decorator to measure and log the execution time of a function.
-    """
     def wrapper(*args, **kwargs):
         start_time = time.time()
         logger.info(f"Starting execution of {func.__name__}...")
         result = func(*args, **kwargs)
-        end_time = time.time()
-        logger.info(f"Execution of {func.__name__} completed in {end_time - start_time:.2f} seconds")
+        execution_time = time.time() - start_time
+        logger.info(f"Execution of {func.__name__} completed in {execution_time:.2f} seconds")
         return result
     return wrapper
 
-# ================= Main Function =================
 @measure_execution_time
 def main():
     try:
-        logger.info("Starting High Potential Customers Training Script with LightGBM...")
+        logger.info("Executing High Potential Customers Training Script")
+        # dataset_path = os.environ.get("SM_CHANNEL_TRAIN", '/opt/ml/input/data/train/')
+        dataset_path = os.environ.get("SM_CHANNEL_TRAIN", '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/')
+        # model_dir = os.environ.get("SM_MODEL_DIR", '/opt/ml/model/')
+        model_dir = os.environ.get("SM_MODEL_DIR", '/home/ec2-user/sylvia/HighPotentialCustomers/ml/model/')
+
+        os.makedirs(model_dir, exist_ok=True)
         
-        # ========== 1) 读取输入数据 ==========
-        input_dir = "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train"
-        file_list = glob.glob(os.path.join(input_dir, "*.csv"))
-        if not file_list:
-            raise ValueError(f"No CSV files found in {input_dir}")
+        if not os.path.exists(dataset_path):
+            raise FileNotFoundError(f"Dataset path does not exist: {dataset_path}")
+            
+        df = load_data(dataset_path)
+        if df is None or df.empty:
+            raise ValueError("Data loading failed or data is empty")
+            
+        logger.info(f"Available columns in the dataset: {list(df.columns)}")
+        logger.info(f"Dataset shape before preparation: {df.shape}")
         
-        raw_df = pd.concat([pd.read_csv(f) for f in file_list], ignore_index=True)
-        logger.info(f"Read {len(file_list)} files with a total of {raw_df.shape[0]} rows.")
+        df = data_preparation(df)
+        logger.info(f"Available columns after preparation: {list(df.columns)}")
+        logger.info(f"Dataset shape after preparation: {df.shape}")
         
-        # ========== 2) 数据预处理 (已去掉 z-score) ==========
-        prepared_df = data_preparation(raw_df)
+        required_cols = ['total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            raise ValueError(f"Missing required columns: {missing_cols}")
         
-        # ========== 3) 计算目标标签 high_potential ==========
-        df = calculate_high_potential_flag(prepared_df)
+        df = calculate_high_potential_flag(df)
+        df = stratified_sampling(df, "high_potential")
         
-        # ========== 4) 训练/测试集拆分 (含过采样) ==========
         X_train, X_test, y_train, y_test = train_test_data_split(df)
+        logger.info(f"Training data shape: {X_train.shape}, Test data shape: {X_test.shape}")
+        if X_train.empty or X_test.empty:
+            raise ValueError("Training or test dataset is empty after splitting")
         
-        # ========== 5) K-Fold 交叉验证 (可选：每折也可过采样) ==========
-        # cross_validate_lightgbm(X_train, y_train, n_splits=5, random_state=42)
+        # 使用 GridSearchCV 寻找最佳模型参数
+        best_model = grid_search_lightgbm(X_train, y_train)
         
-        # ========== 6) 最终模型训练 & 测试集评估 & 保存模型 ==========
-        model_dir = os.environ.get("SM_MODEL_DIR", "/home/ec2-user/sylvia/HighPotentialCustomers/ml/model")
-        model = train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir)
-        
-        # ========== 7) 用最终模型对测试集预测并输出 ==========
-        y_pred = model.predict(X_test)
-        y_pred_proba = model.predict_proba(X_test)[:, 1]
-        output_df = X_test.copy()
-        output_df['predicted_high_potential'] = y_pred
-        output_df['predicted_probability'] = y_pred_proba
-        
-        # 指定输出结果的目录
-        output_dir = "/home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/"
-        os.makedirs(output_dir, exist_ok=True)
-        output_csv = os.path.join(output_dir, "output.csv")
-        output_df.to_csv(output_csv, index=False)
-        logger.info(f"Final output written to: {output_csv}")
+        # 用最佳参数训练最终模型
+        train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir)
         
         logger.info("High Potential Customers Training Script Executed Successfully.")
     except Exception as e:
