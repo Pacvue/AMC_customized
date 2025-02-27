@@ -1,0 +1,1708 @@
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing Repeat Purchaser Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_bfa0f680-38f7-452c-8eff-aa1056bc92f1.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'recency', 'frequency', 'monetary', 'avg_order_value', 'total_impressions', 'total_clicks', 'click_through_rate', 'active_days', 'distinct_campaigns']
+ __main__ :: INFO     :: Calculating repeat purchaser flag dynamically...
+ __main__ :: INFO     :: Repeat purchaser flag calculated successfully.
+ __main__ :: INFO     :: Splitting data...
+ __main__ :: INFO     :: Training data shape: (6147, 12)
+ __main__ :: INFO     :: Testing data shape: (1537, 12)
+ __main__ :: INFO     :: Training the repeat purchaser model using Tabular Neural Network...
+ __main__ :: INFO     :: Evaluating model on test data...
+ __main__ :: INFO     :: Evaluation metrics: {'accuracy': 1.0, 'balanced_accuracy': 1.0, 'mcc': 1.0, 'roc_auc': 1.0, 'f1': 1.0, 'precision': 1.0, 'recall': 1.0}
+ __main__ :: INFO     :: Saving trained model...
+ __main__ :: INFO     :: Model saved in directory: /opt/ml/model/
+ __main__ :: INFO     :: Saving user purchase history as a Pickle file...
+ __main__ :: INFO     :: Purchase history saved to: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Repeat Purchaser Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 41.89 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing Repeat Purchaser Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_bfa0f680-38f7-452c-8eff-aa1056bc92f1.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'recency', 'frequency', 'monetary', 'avg_order_value', 'total_impressions', 'total_clicks', 'click_through_rate', 'active_days', 'distinct_campaigns']
+ __main__ :: INFO     :: Calculating repeat purchaser flag dynamically...
+ __main__ :: INFO     :: Repeat purchaser flag calculated successfully.
+ __main__ :: INFO     :: Splitting data...
+ __main__ :: INFO     :: Training data shape: (6147, 12)
+ __main__ :: INFO     :: Testing data shape: (1537, 12)
+ __main__ :: INFO     :: Training the repeat purchaser model using Tabular Neural Network...
+ __main__ :: INFO     :: Evaluating model on test data...
+ __main__ :: INFO     :: Evaluation metrics: {'accuracy': 1.0, 'balanced_accuracy': 1.0, 'mcc': 1.0, 'roc_auc': 1.0, 'f1': 1.0, 'precision': 1.0, 'recall': 1.0}
+ __main__ :: INFO     :: Fetching leaderboard of top 10 models...
+ __main__ :: INFO     :: Evaluation metrics of top 10 models:
+ __main__ :: INFO     :: top_10_models: ['LightGBM', 'LightGBMLarge', 'LightGBMXT', 'CatBoost', 'XGBoost', 'NeuralNetTorch', 'NeuralNetFastAI', 'RandomForestGini', 'ExtraTreesEntr', 'ExtraTreesGini']
+ __main__ :: INFO     :: 
+
+Model: LightGBM
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: LightGBMLarge
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: LightGBMXT
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: CatBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: XGBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: NeuralNetTorch
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: NeuralNetFastAI
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: RandomForestGini
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: ExtraTreesEntr
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: ExtraTreesGini
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: Saving trained model...
+ __main__ :: INFO     :: Model saved in directory: /opt/ml/model/
+ __main__ :: INFO     :: Saving user purchase history as a Pickle file...
+ __main__ :: INFO     :: Purchase history saved to: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Repeat Purchaser Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 40.02 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing Repeat Purchaser Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_bfa0f680-38f7-452c-8eff-aa1056bc92f1.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'recency', 'frequency', 'monetary', 'avg_order_value', 'total_impressions', 'total_clicks', 'click_through_rate', 'active_days', 'distinct_campaigns']
+ __main__ :: INFO     :: Calculating repeat purchaser flag dynamically...
+ __main__ :: INFO     :: Repeat purchaser flag calculated successfully.
+ __main__ :: INFO     :: Splitting data...
+ __main__ :: INFO     :: Training data shape: (6147, 12)
+ __main__ :: INFO     :: Testing data shape: (1537, 12)
+ __main__ :: INFO     :: Training the repeat purchaser model using Tabular Neural Network...
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing Repeat Purchaser Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_bfa0f680-38f7-452c-8eff-aa1056bc92f1.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'recency', 'frequency', 'monetary', 'avg_order_value', 'total_impressions', 'total_clicks', 'click_through_rate', 'active_days', 'distinct_campaigns']
+ __main__ :: INFO     :: Calculating repeat purchaser flag dynamically...
+ __main__ :: INFO     :: Repeat purchaser flag calculated successfully.
+ __main__ :: INFO     :: Splitting data...
+ __main__ :: INFO     :: Training data shape: (6147, 12)
+ __main__ :: INFO     :: Testing data shape: (1537, 12)
+ __main__ :: INFO     :: Training the repeat purchaser model using Tabular Neural Network...
+ __main__ :: INFO     :: Evaluating model on test data...
+ __main__ :: INFO     :: Evaluation metrics: {'accuracy': 1.0, 'balanced_accuracy': 1.0, 'mcc': 1.0, 'roc_auc': 1.0, 'f1': 1.0, 'precision': 1.0, 'recall': 1.0}
+ __main__ :: INFO     :: Fetching leaderboard of top 10 models...
+ __main__ :: INFO     :: Evaluation metrics of top 10 models:
+ __main__ :: INFO     :: top_10_models: ['LightGBM', 'LightGBMXT', 'LightGBMLarge', 'CatBoost', 'XGBoost', 'NeuralNetTorch', 'NeuralNetFastAI', 'ExtraTreesGini', 'WeightedEnsemble_L2', 'RandomForestEntr']
+ __main__ :: INFO     :: 
+
+Model: LightGBM
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: LightGBMXT
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: LightGBMLarge
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: CatBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: XGBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: NeuralNetTorch
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: NeuralNetFastAI
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: ExtraTreesGini
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: WARNING  :: Skipping ensemble model: WeightedEnsemble_L2
+ __main__ :: INFO     :: 
+
+Model: RandomForestEntr
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: Saving trained model...
+ __main__ :: INFO     :: Model saved in directory: /opt/ml/model/
+ __main__ :: INFO     :: Saving user purchase history as a Pickle file...
+ __main__ :: INFO     :: Purchase history saved to: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Repeat Purchaser Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 37.25 seconds
+ __main__ :: INFO     :: Loading model from directory: /opt/ml/model/
+ __main__ :: ERROR    :: Failed to load model: Predictor was created on Python version 3.10 but is being loaded with Python version 3.9. Please ensure the versions match to avoid instability. While it is NOT recommended, this error can be bypassed by specifying `require_py_version_match=False`.
+Traceback (most recent call last):
+  File "/opt/ml/code/infer/infer.py", line 45, in load_model
+    model = TabularPredictor.load(model_dir)
+  File "/usr/local/lib/python3.9/site-packages/autogluon/tabular/predictor/predictor.py", line 4855, in load
+    raise AssertionError(
+AssertionError: Predictor was created on Python version 3.10 but is being loaded with Python version 3.9. Please ensure the versions match to avoid instability. While it is NOT recommended, this error can be bypassed by specifying `require_py_version_match=False`.
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing Repeat Purchaser Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_bfa0f680-38f7-452c-8eff-aa1056bc92f1.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'recency', 'frequency', 'monetary', 'avg_order_value', 'total_impressions', 'total_clicks', 'click_through_rate', 'active_days', 'distinct_campaigns']
+ __main__ :: INFO     :: Calculating repeat purchaser flag dynamically...
+ __main__ :: INFO     :: Repeat purchaser flag calculated successfully.
+ __main__ :: INFO     :: Splitting data...
+ __main__ :: INFO     :: Training data shape: (6147, 12)
+ __main__ :: INFO     :: Testing data shape: (1537, 12)
+ __main__ :: INFO     :: Training the repeat purchaser model using Tabular Neural Network...
+ __main__ :: INFO     :: Evaluating model on test data...
+ __main__ :: INFO     :: Evaluation metrics: {'accuracy': 1.0, 'balanced_accuracy': 1.0, 'mcc': 1.0, 'roc_auc': 1.0, 'f1': 1.0, 'precision': 1.0, 'recall': 1.0}
+ __main__ :: INFO     :: Fetching leaderboard of top 10 models...
+ __main__ :: INFO     :: Evaluation metrics of top 10 models:
+ __main__ :: INFO     :: top_10_models: ['LightGBM', 'LightGBMXT', 'LightGBMLarge', 'CatBoost', 'XGBoost', 'NeuralNetTorch', 'NeuralNetFastAI', 'ExtraTreesGini', 'WeightedEnsemble_L2', 'RandomForestGini']
+ __main__ :: INFO     :: 
+
+Model: LightGBM
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: LightGBMXT
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: LightGBMLarge
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: CatBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: XGBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: NeuralNetTorch
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: NeuralNetFastAI
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+
+Model: ExtraTreesGini
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: WARNING  :: Skipping ensemble model: WeightedEnsemble_L2
+ __main__ :: INFO     :: 
+
+Model: RandomForestGini
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: Saving trained model...
+ __main__ :: INFO     :: Model saved in directory: /opt/ml/model/
+ __main__ :: INFO     :: Saving user purchase history as a Pickle file...
+ __main__ :: INFO     :: Purchase history saved to: /opt/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: Repeat Purchaser Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 40.49 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_bfa0f680-38f7-452c-8eff-aa1056bc92f1.csv', 'sandbox_query_results_008da601-3002-45dd-867e-7c1c6fb01415_last90days.csv', 'sandbox_query_results_946961e2-834c-495a-bd07-860d00551122_8.31_9.29.csv', 'sandbox_query_results_570c5bf0-2c0b-4fc0-bc61-1ae8c2d69baa_8.1_8.30.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'recency', 'frequency', 'monetary', 'avg_order_value', 'total_impressions', 'total_clicks', 'click_through_rate', 'active_days', 'distinct_campaigns', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']
+ __main__ :: INFO     :: Calculating high potential flag dynamically...
+ __main__ :: INFO     :: High potential flag calculated successfully.
+ __main__ :: INFO     :: Splitting data...
+ __main__ :: INFO     :: Training data shape: (35788, 37)
+ __main__ :: INFO     :: Testing data shape: (8947, 37)
+ __main__ :: INFO     :: Training the high potential customers model using AutoGluon TabularPredictor...
+ __main__ :: INFO     :: Evaluating model on test data...
+ __main__ :: INFO     :: Evaluation metrics: {'accuracy': 1.0, 'balanced_accuracy': 1.0, 'mcc': 1.0, 'roc_auc': 1.0, 'f1': 1.0, 'precision': 1.0, 'recall': 1.0}
+ __main__ :: INFO     :: Fetching leaderboard of top 10 models...
+ __main__ :: INFO     :: Evaluation metrics of top 10 models:
+ __main__ :: INFO     :: 
+Model: LightGBMLarge
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: LightGBM
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: LightGBMXT
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: CatBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: XGBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: RandomForestGini
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: NeuralNetTorch
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: RandomForestEntr
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: ExtraTreesGini
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: WARNING  :: Skipping ensemble model: WeightedEnsemble_L2
+ __main__ :: INFO     :: Saving trained model...
+ __main__ :: INFO     :: Model saved in directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model
+ __main__ :: INFO     :: Saving user purchase history as a Pickle file...
+ __main__ :: INFO     :: Purchase history saved to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 115.04 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with Time-Based Split
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: ERROR    :: An error occurred: No objects to concatenate
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 260, in main
+    df = load_data(dataset_path)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 200, in load_data
+    df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_bfa0f680-38f7-452c-8eff-aa1056bc92f1.csv', 'sandbox_query_results_008da601-3002-45dd-867e-7c1c6fb01415_last90days.csv', 'sandbox_query_results_946961e2-834c-495a-bd07-860d00551122_8.31_9.29.csv', 'sandbox_query_results_570c5bf0-2c0b-4fc0-bc61-1ae8c2d69baa_8.1_8.30.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'recency', 'frequency', 'monetary', 'avg_order_value', 'total_impressions', 'total_clicks', 'click_through_rate', 'active_days', 'distinct_campaigns', 'user_id_type', 'customer_search_term', 'dma_code', 'postal_code', 'device_type', 'browser_family', 'operating_system', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_3d', 'total_clicks_3d', 'total_conversions_30d', 'total_revenue_30d', 'total_quantity_30d', 'total_conversions_15d', 'total_revenue_15d', 'total_quantity_15d', 'total_conversions_3d', 'total_revenue_3d', 'total_quantity_3d', 'last_event_dt_30d', 'last_conversion_dt_30d']
+ __main__ :: INFO     :: Calculating high potential flag dynamically...
+ __main__ :: INFO     :: High potential flag calculated successfully.
+ __main__ :: INFO     :: Splitting data...
+ __main__ :: INFO     :: Training data shape: (35788, 37)
+ __main__ :: INFO     :: Testing data shape: (8947, 37)
+ __main__ :: INFO     :: Training the high potential customers model using AutoGluon TabularPredictor...
+ __main__ :: INFO     :: Evaluating model on test data...
+ __main__ :: INFO     :: Evaluation metrics: {'accuracy': 1.0, 'balanced_accuracy': 1.0, 'mcc': 1.0, 'roc_auc': 1.0, 'f1': 1.0, 'precision': 1.0, 'recall': 1.0}
+ __main__ :: INFO     :: Fetching leaderboard of top 10 models...
+ __main__ :: INFO     :: Evaluation metrics of top 10 models:
+ __main__ :: INFO     :: 
+Model: LightGBMLarge
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: LightGBM
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: LightGBMXT
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: CatBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: XGBoost
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: NeuralNetTorch
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: ExtraTreesEntr
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: RandomForestEntr
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: INFO     :: 
+Model: ExtraTreesGini
+ __main__ :: INFO     :: Accuracy: 1.0
+ __main__ :: INFO     :: Balanced Accuracy: 1.0
+ __main__ :: INFO     :: MCC: 1.0
+ __main__ :: INFO     :: ROC AUC: 1.0
+ __main__ :: INFO     :: F1 Score: 1.0
+ __main__ :: INFO     :: Precision: 1.0
+ __main__ :: INFO     :: Recall: 1.0
+ __main__ :: WARNING  :: Skipping ensemble model: WeightedEnsemble_L2
+ __main__ :: INFO     :: Saving trained model...
+ __main__ :: INFO     :: Model saved in directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model
+ __main__ :: INFO     :: Saving user purchase history as a Pickle file...
+ __main__ :: INFO     :: Purchase history saved to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/purchase_history.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 112.83 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with Time-Based Split
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Calculating high potential flag dynamically...
+ __main__ :: INFO     :: Performing time-based train-test split...
+ __main__ :: ERROR    :: An error occurred: 'date'
+Traceback (most recent call last):
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 95, in main
+    train, test = split_data(df, time_column="date", train_months=2, test_months=1)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 48, in split_data
+    df[time_column] = pd.to_datetime(df[time_column])
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'date'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with Time-Based Split
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Calculating high potential flag dynamically...
+ __main__ :: INFO     :: Performing time-based train-test split...
+ __main__ :: ERROR    :: An error occurred: 'date'
+Traceback (most recent call last):
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 95, in main
+    train, test = split_data(df, time_column="date", train_months=2, test_months=1)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 48, in split_data
+    df[time_column] = pd.to_datetime(df[time_column])
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'date'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with Time-Based Split
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Calculating high potential flag dynamically...
+ __main__ :: INFO     :: Performing time-based train-test split...
+ __main__ :: ERROR    :: An error occurred: 'date'
+Traceback (most recent call last):
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 95, in main
+    train, test = split_data(df, time_column="date", train_months=2, test_months=1)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 48, in split_data
+    df[time_column] = pd.to_datetime(df[time_column])
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'date'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: ERROR    :: An error occurred: [Errno 13] Permission denied: '/opt/ml'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 67, in main
+    os.makedirs(model_dir, exist_ok=True)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/opt/ml'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Reading file /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/train.csv with Pandas.
+ __main__ :: INFO     :: Reading file /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/test.csv with Pandas.
+ __main__ :: INFO     :: Calculating high potential flag dynamically...
+ __main__ :: INFO     :: Calculating high potential flag dynamically...
+ __main__ :: INFO     :: Training the high potential customers model using AutoGluon TabularPredictor...
+ __main__ :: INFO     :: Model saved in directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 203.10 seconds
+ __main__ :: INFO     :: Loading model from directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.253.232:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Loading model from directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/
+ __main__ :: INFO     :: Model loaded successfully.
+ werkzeug :: INFO     :: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.253.232:8080
+ werkzeug :: INFO     :: [33mPress CTRL+C to quit[0m
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Reading data from: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/train.csv
+ __main__ :: INFO     :: Data shape: (21340, 26)
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (17072, 26), Test shape: (4268, 26)
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: ERROR    :: An error occurred: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: user_id: object, user_id_type: object, customer_search_term: object, last_event_dt_30d: object, last_conversion_dt_30d: object
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 166, in main
+    _ = train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 96, in train_lightgbm_model
+    model.fit(X_train, y_train)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/sklearn.py", line 1284, in fit
+    super().fit(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/sklearn.py", line 955, in fit
+    self._Booster = train(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/engine.py", line 282, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 3637, in __init__
+    train_set.construct()
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 2576, in construct
+    self._lazy_init(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 2106, in _lazy_init
+    data, feature_name, categorical_feature, self.pandas_categorical = _data_from_pandas(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 848, in _data_from_pandas
+    _pandas_to_numpy(data, target_dtype=target_dtype),
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 794, in _pandas_to_numpy
+    _check_for_bad_pandas_dtypes(data.dtypes)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 784, in _check_for_bad_pandas_dtypes
+    raise ValueError(
+ValueError: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: user_id: object, user_id_type: object, customer_search_term: object, last_event_dt_30d: object, last_conversion_dt_30d: object
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Reading data from: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/train.csv
+ __main__ :: INFO     :: Data shape: (21340, 16)
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (17072, 16), Test shape: (4268, 16)
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics:
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 1.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.24 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Reading data from: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/train.csv
+ __main__ :: INFO     :: Data shape: (21340, 16)
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (17072, 16), Test shape: (4268, 16)
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics:
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 1.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.23 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Reading data from: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/train.csv
+ __main__ :: INFO     :: Data shape: (21340, 16)
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (17072, 16), Test shape: (4268, 16)
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics:
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 1.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.29 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Reading data from: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/train.csv
+ __main__ :: ERROR    :: An error occurred: [Errno 2] No such file or directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/train.csv'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 160, in main
+    df = load_data(train_dataset_file)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 41, in load_data
+    df = pd.read_csv(file_path)  # or handle multiple CSVs if needed
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/train.csv'
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Reading data from: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: ERROR    :: An error occurred: [Errno 21] Is a directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 160, in main
+    df = load_data(train_dataset_file)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 41, in load_data
+    df = pd.read_csv(file_path)  # or handle multiple CSVs if needed
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+IsADirectoryError: [Errno 21] Is a directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/'
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_008da601-3002-45dd-867e-7c1c6fb01415_last90days.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (17072, 26), Test shape: (4268, 26)
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: ERROR    :: An error occurred: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: user_id: object, user_id_type: object, customer_search_term: object, last_event_dt_30d: object, last_conversion_dt_30d: object
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 171, in main
+    _ = train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 102, in train_lightgbm_model
+    model.fit(X_train, y_train)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/sklearn.py", line 1284, in fit
+    super().fit(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/sklearn.py", line 955, in fit
+    self._Booster = train(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/engine.py", line 282, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 3637, in __init__
+    train_set.construct()
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 2576, in construct
+    self._lazy_init(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 2106, in _lazy_init
+    data, feature_name, categorical_feature, self.pandas_categorical = _data_from_pandas(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 848, in _data_from_pandas
+    _pandas_to_numpy(data, target_dtype=target_dtype),
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 794, in _pandas_to_numpy
+    _check_for_bad_pandas_dtypes(data.dtypes)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 784, in _check_for_bad_pandas_dtypes
+    raise ValueError(
+ValueError: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: user_id: object, user_id_type: object, customer_search_term: object, last_event_dt_30d: object, last_conversion_dt_30d: object
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_008da601-3002-45dd-867e-7c1c6fb01415_last90days.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (17072, 26), Test shape: (4268, 26)
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: ERROR    :: An error occurred: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: user_id: object, user_id_type: object, customer_search_term: object, last_event_dt_30d: object, last_conversion_dt_30d: object
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 171, in main
+    _ = train_lightgbm_model(X_train, y_train, X_test, y_test, model_dir)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 102, in train_lightgbm_model
+    model.fit(X_train, y_train)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/sklearn.py", line 1284, in fit
+    super().fit(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/sklearn.py", line 955, in fit
+    self._Booster = train(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/engine.py", line 282, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 3637, in __init__
+    train_set.construct()
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 2576, in construct
+    self._lazy_init(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 2106, in _lazy_init
+    data, feature_name, categorical_feature, self.pandas_categorical = _data_from_pandas(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 848, in _data_from_pandas
+    _pandas_to_numpy(data, target_dtype=target_dtype),
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 794, in _pandas_to_numpy
+    _check_for_bad_pandas_dtypes(data.dtypes)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/lightgbm/basic.py", line 784, in _check_for_bad_pandas_dtypes
+    raise ValueError(
+ValueError: pandas dtypes must be int, float or bool.
+Fields with bad pandas dtypes: user_id: object, user_id_type: object, customer_search_term: object, last_event_dt_30d: object, last_conversion_dt_30d: object
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['prepared_data.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 20), Test shape: (25, 20)
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics:
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.07 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: ERROR    :: An error occurred: [Errno 2] No such file or directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/sandbox_query_results_008da601-3002-45dd-867e-7c1c6fb01415_last90days.csv'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 630, in main
+    prepared_df = data_preparation(raw_input_csv, threshold=3.0)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 452, in data_preparation
+    df = pd.read_csv(input_path)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/sandbox_query_results_008da601-3002-45dd-867e-7c1c6fb01415_last90days.csv'
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: ERROR    :: An error occurred: [Errno 21] Is a directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 630, in main
+    prepared_df = data_preparation(raw_input_csv, threshold=3.0)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 452, in data_preparation
+    df = pd.read_csv(input_path)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+IsADirectoryError: [Errno 21] Is a directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/'
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: user_id                      0
+user_id_type                 0
+customer_search_term         0
+dma_code                 21340
+postal_code              21340
+device_type              21340
+browser_family           21340
+operating_system         21340
+search_campaign_cnt          0
+total_impressions_30d        0
+total_clicks_30d             0
+total_impressions_15d        0
+total_clicks_15d             0
+total_impressions_3d         0
+total_clicks_3d              0
+total_conversions_30d      338
+total_revenue_30d          338
+total_quantity_30d         338
+total_conversions_15d      338
+total_revenue_15d          338
+total_quantity_15d         338
+total_conversions_3d       338
+total_revenue_3d           338
+total_quantity_3d          338
+time_diff_days            2269
+dtype: int64
+ __main__ :: INFO     :: Preprocessed data written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/prepared_data.csv
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 20), Test shape: (25, 20)
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics:
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.24 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: user_id                      0
+user_id_type                 0
+customer_search_term         0
+dma_code                 21340
+postal_code              21340
+device_type              21340
+browser_family           21340
+operating_system         21340
+search_campaign_cnt          0
+total_impressions_30d        0
+total_clicks_30d             0
+total_impressions_15d        0
+total_clicks_15d             0
+total_impressions_3d         0
+total_clicks_3d              0
+total_conversions_30d      338
+total_revenue_30d          338
+total_quantity_30d         338
+total_conversions_15d      338
+total_revenue_15d          338
+total_quantity_15d         338
+total_conversions_3d       338
+total_revenue_3d           338
+total_quantity_3d          338
+time_diff_days            2269
+dtype: int64
+ __main__ :: ERROR    :: An error occurred: [Errno 13] Permission denied: '/opt/ml'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 635, in main
+    os.makedirs(train_dataset_folder, exist_ok=True)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/opt/ml'
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: user_id                      0
+user_id_type                 0
+customer_search_term         0
+dma_code                 21340
+postal_code              21340
+device_type              21340
+browser_family           21340
+operating_system         21340
+search_campaign_cnt          0
+total_impressions_30d        0
+total_clicks_30d             0
+total_impressions_15d        0
+total_clicks_15d             0
+total_impressions_3d         0
+total_clicks_3d              0
+total_conversions_30d      338
+total_revenue_30d          338
+total_quantity_30d         338
+total_conversions_15d      338
+total_revenue_15d          338
+total_quantity_15d         338
+total_conversions_3d       338
+total_revenue_3d           338
+total_quantity_3d          338
+time_diff_days            2269
+dtype: int64
+ __main__ :: INFO     :: Preprocessed data written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/prepared_data.csv
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 20), Test shape: (25, 20)
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics:
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.25 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: ERROR    :: An error occurred: [Errno 2] No such file or directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/sandbox_query_results.csv'
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 284, in main
+    prepared_df = data_preparation(raw_input_csv, threshold=3.0)
+  File "/home/ec2-user/sylvia/HighPotentialCustomers/ml/code/train/train.py", line 66, in data_preparation
+    df = pd.read_csv(input_path)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/ec2-user/miniconda3/envs/sylvia/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ec2-user/sylvia/HighPotentialCustomers/ml/input/data/train/sandbox_query_results.csv'
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (79, 18), Test shape: (20, 18)
+ __main__ :: INFO     :: Starting 5-Fold Cross Validation...
+ __main__ :: INFO     :: [Fold 1] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=0.0000
+ __main__ :: INFO     :: [Fold 2] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=0.0000
+ __main__ :: INFO     :: [Fold 3] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 4] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 5] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=0.0000
+ __main__ :: INFO     :: === K-Fold Cross Validation (Average) ===
+ __main__ :: INFO     :: Mean Accuracy: 1.0000
+ __main__ :: INFO     :: Mean Precision: 1.0000
+ __main__ :: INFO     :: Mean Recall: 1.0000
+ __main__ :: INFO     :: Mean F1 Score: 1.0000
+ __main__ :: INFO     :: Mean ROC AUC: 0.4000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.49 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: [Z-Score] Before filtering: 123 rows
+ __main__ :: INFO     :: [Z-Score] After filtering: 99 rows
+ __main__ :: INFO     :: [Z-Score] Removed 24 rows by threshold=3.0
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (79, 18), Test shape: (20, 18)
+ __main__ :: INFO     :: Starting 5-Fold Cross Validation...
+ __main__ :: INFO     :: [Fold 1] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=0.0000
+ __main__ :: INFO     :: [Fold 2] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=0.0000
+ __main__ :: INFO     :: [Fold 3] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 4] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 5] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=0.0000
+ __main__ :: INFO     :: === K-Fold Cross Validation (Average) ===
+ __main__ :: INFO     :: Mean Accuracy: 1.0000
+ __main__ :: INFO     :: Mean Precision: 1.0000
+ __main__ :: INFO     :: Mean Recall: 1.0000
+ __main__ :: INFO     :: Mean F1 Score: 1.0000
+ __main__ :: INFO     :: Mean ROC AUC: 0.4000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.35 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 18), Test shape: (25, 18)
+ __main__ :: INFO     :: Starting 5-Fold Cross Validation...
+ __main__ :: INFO     :: [Fold 1] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=0.0000
+ __main__ :: INFO     :: [Fold 2] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 3] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 4] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=0.0000
+ __main__ :: INFO     :: [Fold 5] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=0.0000
+ __main__ :: INFO     :: === K-Fold Cross Validation (Average) ===
+ __main__ :: INFO     :: Mean Accuracy: 1.0000
+ __main__ :: INFO     :: Mean Precision: 1.0000
+ __main__ :: INFO     :: Mean Recall: 1.0000
+ __main__ :: INFO     :: Mean F1 Score: 1.0000
+ __main__ :: INFO     :: Mean ROC AUC: 0.4000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.37 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 18), Test shape: (25, 18)
+ __main__ :: INFO     :: Performing random oversampling on the training set to handle imbalance...
+ __main__ :: INFO     :: Before oversampling: Positive=96, Negative=2
+ __main__ :: INFO     :: After oversampling:  Positive=96, Negative=96
+ __main__ :: INFO     :: Starting 5-Fold Cross Validation...
+ __main__ :: INFO     :: [Fold 1] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 2] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 3] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 4] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 5] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: === K-Fold Cross Validation (Average) ===
+ __main__ :: INFO     :: Mean Accuracy: 1.0000
+ __main__ :: INFO     :: Mean Precision: 1.0000
+ __main__ :: INFO     :: Mean Recall: 1.0000
+ __main__ :: INFO     :: Mean F1 Score: 1.0000
+ __main__ :: INFO     :: Mean ROC AUC: 1.0000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.28 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Ensuring each class has at least 5000 positives and 5000 negatives...
+ __main__ :: INFO     :: Original dataset distribution: Positive=121, Negative=2
+ __main__ :: INFO     :: Oversampled positives from 121 to 5000
+ __main__ :: INFO     :: Oversampled negatives from 2 to 5000
+ __main__ :: INFO     :: New dataset distribution: Positive=5000, Negative=5000, Total=10000
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (8000, 18), Test shape: (2000, 18)
+ __main__ :: INFO     :: Starting 5-Fold Cross Validation...
+ __main__ :: INFO     :: [Fold 1] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 2] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 3] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 4] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 5] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: === K-Fold Cross Validation (Average) ===
+ __main__ :: INFO     :: Mean Accuracy: 1.0000
+ __main__ :: INFO     :: Mean Precision: 1.0000
+ __main__ :: INFO     :: Mean Recall: 1.0000
+ __main__ :: INFO     :: Mean F1 Score: 1.0000
+ __main__ :: INFO     :: Mean ROC AUC: 1.0000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 1.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.45 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 13), Test shape: (25, 13)
+ __main__ :: INFO     :: Performing random oversampling on the training set to handle imbalance...
+ __main__ :: INFO     :: Before oversampling: Positive=96, Negative=2
+ __main__ :: INFO     :: After oversampling:  Positive=96, Negative=96
+ __main__ :: INFO     :: Starting 5-Fold Cross Validation...
+ __main__ :: INFO     :: [Fold 1] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 2] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 3] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 4] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: [Fold 5] Accuracy=1.0000, Precision=1.0000, Recall=1.0000, F1=1.0000, AUC=1.0000
+ __main__ :: INFO     :: === K-Fold Cross Validation (Average) ===
+ __main__ :: INFO     :: Mean Accuracy: 1.0000
+ __main__ :: INFO     :: Mean Precision: 1.0000
+ __main__ :: INFO     :: Mean Recall: 1.0000
+ __main__ :: INFO     :: Mean F1 Score: 1.0000
+ __main__ :: INFO     :: Mean ROC AUC: 1.0000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.24 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 13), Test shape: (25, 13)
+ __main__ :: INFO     :: Performing random oversampling on the training set to handle imbalance...
+ __main__ :: INFO     :: Before oversampling: Positive=96, Negative=2
+ __main__ :: INFO     :: After oversampling:  Positive=96, Negative=96
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.11 seconds
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 0.6338
+  Precision: 0.9477
+  Recall: 0.6257
+  F1 Score: 0.7537
+  ROC AUC: 0.6645
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 0.6338
+  Precision: 0.9477
+  Recall: 0.6257
+  F1 Score: 0.7537
+  ROC AUC: 0.6645
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 13), Test shape: (25, 13)
+ __main__ :: INFO     :: Performing random oversampling on the training set to handle imbalance...
+ __main__ :: INFO     :: Before oversampling: Positive=96, Negative=2
+ __main__ :: INFO     :: After oversampling:  Positive=96, Negative=96
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.13 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 21), Test shape: (25, 21)
+ __main__ :: INFO     :: Performing random oversampling on the training set to handle imbalance...
+ __main__ :: INFO     :: Before oversampling: Positive=96, Negative=2
+ __main__ :: INFO     :: After oversampling:  Positive=96, Negative=96
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.09 seconds
+ __main__ :: INFO     :: Starting execution of main...
+ __main__ :: INFO     :: Starting High Potential Customers Training Script with LightGBM...
+ __main__ :: INFO     :: Read 1 files with a total of 123 rows.
+ __main__ :: INFO     :: === Initial DataFrame Info ===
+ __main__ :: INFO     :: None
+ __main__ :: INFO     :: 
+=== Missing Values per Column ===
+ __main__ :: INFO     :: customer_search_term       0
+dma_code                 123
+postal_code              123
+search_campaign_cnt        0
+total_impressions_30d      0
+total_clicks_30d           0
+total_impressions_15d      0
+total_clicks_15d           0
+total_impressions_3d       0
+total_clicks_3d            0
+total_conversions_30d      0
+total_revenue_30d          0
+total_quantity_30d         0
+total_conversions_15d      0
+total_revenue_15d          0
+total_quantity_15d         0
+total_conversions_3d       0
+total_revenue_3d           0
+total_quantity_3d          0
+time_diff_days             2
+dtype: int64
+ __main__ :: INFO     :: Calculating 'high_potential' flag...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Train shape: (98, 21), Test shape: (25, 21)
+ __main__ :: INFO     :: Performing random oversampling on the training set to handle imbalance...
+ __main__ :: INFO     :: Before oversampling: Positive=96, Negative=2
+ __main__ :: INFO     :: After oversampling:  Positive=96, Negative=96
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  ROC AUC: 0.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/HighPotentialCustomers/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.16 seconds

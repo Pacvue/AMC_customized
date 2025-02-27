@@ -1,0 +1,32 @@
+{
+  "metricDefinitions": [
+    {
+      "Name": "Accuracy",
+      "Regex": "Accuracy: ([0-9]*[.][0-9]+)"
+    },
+    {
+      "Name": "Balanced Accuracy",
+      "Regex": "Balanced Accuracy: ([0-9]*[.][0-9]+)"
+    },
+    {
+      "Name": "MCC",
+      "Regex": "MCC: ([0-9]*[.][0-9]+)"
+    },
+    {
+      "Name": "ROC AUC",
+      "Regex": "ROC AUC: ([0-9]*[.][0-9]+)"
+    },
+    {
+      "Name": "F1 Score",
+      "Regex": "F1 Score: ([0-9]*[.][0-9]+)"
+    },
+    {
+      "Name": "Precision",
+      "Regex": "Precision: ([0-9]*[.][0-9]+)"
+    },
+    {
+      "Name": "Recall",
+      "Regex": "Recall: ([0-9]*[.][0-9]+)"
+    }
+  ]
+}
