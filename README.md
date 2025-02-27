@@ -1,6 +1,6 @@
-# Repeat Purchase Prediction Using Tabular Neural Networks
+# High Potential Prediction Using Tabular Neural Networks
 
-This project aims to predict repeat purchases using a Tabular Neural Network model and Anomaly Detection techniques. The model is trained using historical user purchase and engagement data and leverages AutoGluon for efficient hyperparameter tuning. The project includes scripts for training the model (`train.py`) and performing inference (`infer.py`) to identify users likely to make repeat purchases.
+This project aims to predict high potentials using a Tabular Neural Network model and Anomaly Detection techniques. The model is trained using historical user purchase and engagement data and leverages AutoGluon for efficient hyperparameter tuning. The project includes scripts for training the model (`train.py`) and performing inference (`infer.py`) to identify users likely to make high potentials.
 
 ## Project Structure
 
@@ -150,12 +150,12 @@ User Churn Prediction/
 ### infer.py
 - **Loads the Model**: Retrieves the trained model and preprocessing artifacts.
 - **Preprocesses New Data**: Ensures the new data is consistent with the training data.
-- **Generates Predictions**: Outputs probabilities indicating the likelihood of repeat purchases.
-- **Sorts Results**: Ranks users based on their repeat purchase probability.
+- **Generates Predictions**: Outputs probabilities indicating the likelihood of high potentials.
+- **Sorts Results**: Ranks users based on their high potential probability.
 
 ## Notes
 - **SQL Query Consistency**: Use the same SQL query for Training and Inference but apply different time windows.
-- **Prediction Threshold**: Adjust the threshold for classifying high-probability repeat purchasers based on your business needs.
+- **Prediction Threshold**: Adjust the threshold for classifying high-probability high potential customers based on your business needs.
 
 ## Troubleshooting
 - **Data Validation**: Ensure input data does not contain NaN or infinite values before running the scripts.
