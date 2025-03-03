@@ -1706,3 +1706,2799 @@ dtype: int64
  __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
  __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
  __main__ :: INFO     :: Execution of main completed in 0.16 seconds
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_cf70f897-e7d6-47ae-866b-97ade070fb1a.csv', 'sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds', 'target_col']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_cf70f897-e7d6-47ae-866b-97ade070fb1a.csv', 'sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_cf70f897-e7d6-47ae-866b-97ade070fb1a.csv', 'sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds', 'target_col']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds', 'target_col']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Accuracy: 0.9684
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Precision: 0.0588
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: F1 Score: 0.1111
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: ROC AUC: 0.9851
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Accuracy: 0.8125
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Precision: 0.2500
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: Recall: 1.0000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: F1 Score: 0.4000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: ROC AUC: 0.8000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: ROC AUC: 0.9333
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: MCC: 6.0000
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Accuracy: 0.9375
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Precision: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: Recall: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: F1 Score: 0.0000
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: ROC AUC: 0.3667
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/kai/HPC/ml/input/data/train
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: accuracy: 0.9375
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: recall: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: f1_score: 0.0000
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: auc_roc: 0.3667
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/kai/HPC/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
