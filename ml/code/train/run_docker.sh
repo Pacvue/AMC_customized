@@ -1,4 +1,4 @@
-docker build -t acm_repeat_purchaser_train:latest .
+docker build -t acm_high_potential_customers_train:latest .
 
-# docker run -v "<path to the ml folder>":/opt/ml acm_repeat_purchaser_train:latest
-docker run -v "/home/ec2-user/sylvia/RepeatPurchaserPrediction/ml":/opt/ml acm_repeat_purchaser_train:latest
+docker run -v "/home/ec2-user/sylvia/AMC_customized/ml":/opt/ml \
+        acm_high_potential_customers_train:latest

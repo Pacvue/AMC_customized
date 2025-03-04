@@ -1706,3 +1706,764 @@ dtype: int64
  __main__ :: INFO     :: Final output written to: /home/ec2-user/sylvia/HighPotentialCustomers/ml/output/data/audiences/output.csv
  __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
  __main__ :: INFO     :: Execution of main completed in 0.16 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/AMC_customized/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_cf70f897-e7d6-47ae-866b-97ade070fb1a.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.5051
+ __main__ :: INFO     :: Precision: 0.1174
+ __main__ :: INFO     :: Recall: 0.5370
+ __main__ :: INFO     :: F1 Score: 0.1927
+ __main__ :: INFO     :: ROC AUC: 0.5558
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/AMC_customized/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.04 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/AMC_customized/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_cf70f897-e7d6-47ae-866b-97ade070fb1a.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/AMC_customized/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.04 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/AMC_customized/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_cf70f897-e7d6-47ae-866b-97ade070fb1a.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/AMC_customized/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.04 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/AMC_customized/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_cf70f897-e7d6-47ae-866b-97ade070fb1a.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/AMC_customized/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.04 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_cf70f897-e7d6-47ae-866b-97ade070fb1a.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'total_conversions_after_30d', 'total_revenue_after_30d', 'total_quantity_after_30d', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'last_event_dt_before', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: Accuracy: 0.7088
+ __main__ :: INFO     :: Precision: 0.1704
+ __main__ :: INFO     :: Recall: 0.4259
+ __main__ :: INFO     :: F1 Score: 0.2434
+ __main__ :: INFO     :: ROC AUC: 0.6421
+ __main__ :: INFO     :: Model saved at: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.08 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /home/ec2-user/sylvia/AMC_customized/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Class distribution after balancing: {0: 71, 1: 71}
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Model saved at: /home/ec2-user/sylvia/AMC_customized/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.05 seconds
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: ERROR    :: An error occurred: 'total_conversions_after_30d'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'total_conversions_after_30d'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/ml/code/train/train.py", line 177, in main
+    df = calculate_high_potential_flag(df)
+  File "/opt/ml/code/train/train.py", line 53, in calculate_high_potential_flag
+    (df['total_conversions_after_30d'] > 0) |
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'total_conversions_after_30d'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: ERROR    :: An error occurred: 'total_conversions_after_30d'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'total_conversions_after_30d'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/ml/code/train/train.py", line 177, in main
+    df = calculate_high_potential_flag(df)
+  File "/opt/ml/code/train/train.py", line 53, in calculate_high_potential_flag
+    (df['total_conversions_after_30d'] > 0) |
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'total_conversions_after_30d'
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Class distribution after balancing: {0: 71, 1: 71}
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Model saved at: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.09 seconds
+ __main__ :: INFO     :: Loading model from directory: /home/ec2-user/sylvia/AMC_customized/ml/model/
+ __main__ :: ERROR    :: Failed to load model: name 'TabularPredictor' is not defined
+Traceback (most recent call last):
+  File "/home/ec2-user/sylvia/AMC_customized/ml/code/infer/infer.py", line 42, in load_model
+    model = TabularPredictor.load(model_dir)
+NameError: name 'TabularPredictor' is not defined
+ __main__ :: INFO     :: Starting execution of main
+ __main__ :: INFO     :: Executing High Potential Customers Training Script
+ __main__ :: INFO     :: Current working directory: /opt/ml/input/data/train/
+ __main__ :: INFO     :: Directory contents: ['sandbox_query_results_c448932d-b7d8-4cb1-b92b-bf30f2942447.csv']
+ __main__ :: INFO     :: Reading files with Pandas.
+ __main__ :: INFO     :: Available columns in the dataset: ['user_id', 'search_campaign_cnt', 'total_impressions_30d', 'total_clicks_30d', 'total_impressions_15d', 'total_clicks_15d', 'total_impressions_5d', 'total_clicks_5d', 'target_col', 'total_conversions_before_30d', 'total_revenue_before_30d', 'total_quantity_before_30d', 'total_conversions_before_15d', 'total_revenue_before_15d', 'total_quantity_before_15d', 'total_conversions_before_5d', 'total_revenue_before_5d', 'total_quantity_before_5d', 'search_term_count', 'last_30days_sp_impressions', 'last_30days_sp_clicks', 'sp_ctr_30d', 'last_30days_sb_impressions', 'last_30days_sb_clicks', 'sb_ctr_30d', 'avg_click_interval_seconds', 'impression_day_count', 'click_day_count', 'last_impression_time_diff_seconds', 'last_click_time_diff_seconds']
+ __main__ :: INFO     :: Class distribution after balancing: {0: 71, 1: 71}
+ __main__ :: INFO     :: Splitting data with test_size=0.2, random_state=42...
+ __main__ :: INFO     :: Training a LightGBM classifier for high potential customers...
+ __main__ :: INFO     :: Evaluating on test data...
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Performance Metrics (Test Set):
+ __main__ :: INFO     :: accuracy: 0.9310
+ __main__ :: INFO     :: recall: 1.0000
+ __main__ :: INFO     :: f1_score: 0.9333
+ __main__ :: INFO     :: auc_roc: 1.0000
+ __main__ :: INFO     :: Model saved at: /opt/ml/model/high_potential_model.pkl
+ __main__ :: INFO     :: High Potential Customers Training Script Executed Successfully.
+ __main__ :: INFO     :: Execution of main completed in 0.08 seconds

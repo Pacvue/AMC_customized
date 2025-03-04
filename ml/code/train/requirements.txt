@@ -1,7 +1,9 @@
 pandas
 numpy
 scikit-learn
-autogluon.tabular[all]
 psutil
 joblib
 spacy
+lightgbm
+gunicorn
+flask

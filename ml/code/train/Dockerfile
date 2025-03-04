@@ -15,7 +15,9 @@ RUN pip install --no-cache-dir --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy your training script
-COPY train.py /opt/ml/code/train/train.py
+# COPY train.py /opt/ml/code/train/train.py
+COPY train.py .
+
 
 # Set the entrypoint for training
 ENTRYPOINT ["python", "/opt/ml/code/train/train.py"]
